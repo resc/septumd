@@ -1,0 +1,17 @@
+# septumd configuration file 
+[server]
+port = 80
+
+# the api base path
+[server.api]
+path = "/septum/api"
+
+# the web ui base path
+[server.web]
+path = "/septum/app"
+
+# the event database
+[database]
+path = "c:/temp"
+name = "septum.db"
+
